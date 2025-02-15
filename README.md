@@ -6,6 +6,69 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .navbar {
+    background: rgba(101, 134, 145, 0.452);
+    box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.192);
+}
+
+.logo {
+    width: 80px;
+    height: 45px;
+}
+
+.mi-link {
+    color: white;
+    font-size: 23px;
+    padding: 2px;
+}
+
+.m-link {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.mi-link:hover {
+    color: wheat;
+}
+
+#hero {
+    background: linear-gradient(#59abb157, #60abb157), url(../images/pexels-pixabay-417173.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.btn {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background: #4e57d4;
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.custom-Ab {
+    align-items: center;
+}
+    </style>
 </head>
 <body>
     <!-- Navbar -->
